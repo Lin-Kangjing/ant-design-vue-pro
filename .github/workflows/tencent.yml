@@ -23,7 +23,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: install and build
         run: |
-          npm ci
+          npm install
           npm run build
       - name: Deploy to Tencent CloudBase
         uses: TencentCloudBase/cloudbase-action@v2
